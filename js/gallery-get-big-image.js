@@ -16,7 +16,7 @@ function onParentClick(evt) {
 
     let setOriginalImage = document.querySelector('.lightbox__image');
 
-    console.log(setOriginalImage);
+    //console.log(setOriginalImage);
 
     setOriginalImage.src = getOriginalImage;
     setOriginalImage.alt = getAltAttribute;
